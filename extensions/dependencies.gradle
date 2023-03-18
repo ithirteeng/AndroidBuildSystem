@@ -49,5 +49,10 @@ ext.Dependencies =
 
                 COROUTINE_CORE             : "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.COROUTINE}",
                 COROUTINE_ANDROID          : "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.COROUTINE}",
-                COROUTINE_TEST             : "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.COROUTINE}"
+                COROUTINE_TEST             : "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.COROUTINE}",
+
+                NAVIGATION_FRAGMENT        : "androidx.navigation:navigation-fragment-ktx:${Versions.NAVIGATION}",
+                NAVIGATION_UI              : "androidx.navigation:navigation-ui-ktx:${Versions.NAVIGATION}",
+                NAVIGATION_FEATURE         : "androidx.navigation:navigation-dynamic-features-fragment:${Versions.NAVIGATION}",
+                NAVIGATION_TEST            : "androidx.navigation:navigation-testing:${Versions.NAVIGATION}",
         ]
